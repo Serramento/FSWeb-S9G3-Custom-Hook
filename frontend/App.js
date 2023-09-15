@@ -3,7 +3,7 @@ import axios from "axios";
 
 import Charts from "./components/Charts";
 import Navbar from "./components/Navbar";
-import {geceModuAc} from "./components/hooks/geceModuAc";
+import { geceModuAc } from "./hooks/geceModuAc";
 
 const App = () => {
   const [coinData, setCoinData] = useState([]);
